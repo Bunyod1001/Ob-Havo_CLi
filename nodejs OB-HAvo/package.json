@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-ob-havo",
+  "version": "1.0.0",
+  "description": "Weather-CLI project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Ne'matullayev Bunyodbek",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chalk": "^5.3.0",
+    "dedent": "^1.5.1",
+    "dedent-js": "^1.0.1",
+    "yargs": "^17.7.2"
+  }
+}
